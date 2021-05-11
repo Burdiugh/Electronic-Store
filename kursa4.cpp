@@ -5,19 +5,12 @@
 #include<fstream>
 using namespace std;
 
-// class
-/*
-	
-*/
-
 struct Device {
 	string type = "none type";
 	string name = "none name";
 	string model = "none model";
 	int price = 0;
 };
-
-
 
 // prototypes
 int search(Device* obj, int& length, string& model);
